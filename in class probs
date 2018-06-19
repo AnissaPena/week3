@@ -1,0 +1,13 @@
+I = []
+for i in range(n):
+  row = []
+  for j in range(n):
+      if i == j:
+          row.append(1)
+  else:
+    row.apprend(0)  
+  I.append(row)
+return i
+
+
+print(create_Identity(3))
